@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harced - Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-text">Harced</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Главная</a></li>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#portfolio" class="nav-link">Портфолио</a></li>
+                    <li><a href="#contact" class="nav-link">Контакты</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Добро пожаловать в <span class="highlight">Harced</span></h1>
+                <p class="hero-subtitle">Мы создаем инновационные решения для вашего бизнеса</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Связаться с нами</a>
+                    <a href="#portfolio" class="btn btn-secondary">Наши работы</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О <span class="highlight">нас</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Harced - это команда профессионалов, объединенных страстью к созданию качественных цифровых продуктов. Мы работаем с 2020 года и за это время реализовали более 100 успешных проектов.</p>
+                    <p>Наша миссия - помогать бизнесу расти и развиваться с помощью современных технологий и креативных решений.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Проектов</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Клиентов</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Года</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/500x400/2ecc71/ffffff?text=Harced" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Наши <span class="highlight">услуги</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Веб-разработка</h3>
+                    <p>Создаем современные сайты и веб-приложения любой сложности</p>
+                    <a href="#contact" class="service-link">Узнать больше <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Мобильные приложения</h3>
+                    <p>Разрабатываем нативные и кросс-платформенные мобильные приложения</p>
+                    <a href="#contact" class="service-link">Узнать больше <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Дизайн</h3>
+                    <p>Создаем удобные и красивые интерфейсы для ваших проектов</p>
+                    <a href="#contact" class="service-link">Узнать больше <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>SEO оптимизация</h3>
+                    <p>Продвигаем ваш сайт в топ поисковых систем</p>
+                    <a href="#contact" class="service-link">Узнать больше <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Наше <span class="highlight">портфолио</span></h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/3498db/ffffff?text=Проект+1" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h4>Интернет-магазин</h4>
+                        <p>Для бренда одежды</p>
+                        <a href="#" class="portfolio-link" onclick="window.open('https://example.com', '_blank'); return false;"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/9b59b6/ffffff?text=Проект+2" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h4>Мобильное приложение</h4>
+                        <p>Для доставки еды</p>
+                        <a href="#" class="portfolio-link" onclick="window.open('https://example.com', '_blank'); return false;"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/e74c3c/ffffff?text=Проект+3" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h4>Корпоративный сайт</h4>
+                        <p>Для IT компании</p>
+                        <a href="#" class="portfolio-link" onclick="window.open('https://example.com', '_blank'); return false;"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300/27ae60/ffffff?text=Проект+4" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h4>Лендинг</h4>
+                        <p>Для онлайн курса</p>
+                        <a href="#" class="portfolio-link" onclick="window.open('https://example.com', '_blank'); return false;"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с <span class="highlight">нами</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Адрес</h4>
+                        <p>г. Москва, ул. Примерная, 123</p>
+                        <a href="#" onclick="window.open('https://maps.google.com', '_blank'); return false;">Открыть карту <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Телефон</h4>
+                        <p>+7 (981) 863-93-65</p>
+                        <a href="#" onclick="window.open('tel:+79991234567', '_blank'); return false;">Позвонить <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>info@harced.ru</p>
+                        <a href="#" onclick="window.open('mailto:info@harced.ru', '_blank'); return false;">Написать <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Отправьте сообщение</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="Тема">
+                        <textarea placeholder="Сообщение" rows="4" required></textarea>
+                        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Harced</h4>
+                    <p>Создаем цифровые решения для вашего бизнеса</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Соцсети</h4>
+                    <div class="social-links">
+                        <a href="#" onclick="window.open('https://vk.com', '_blank'); return false;"><i class="fab fa-vk"></i></a>
+                        <a href="#" onclick="window.open('https://telegram.org', '_blank'); return false;"><i class="fab fa-telegram"></i></a>
+                        <a href="#" onclick="window.open('https://youtube.com', '_blank'); return false;"><i class="fab fa-youtube"></i></a>
+                        <a href="#" onclick="window.open('https://discord.com', '_blank'); return false;"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Harced. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
